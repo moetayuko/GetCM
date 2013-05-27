@@ -52,6 +52,7 @@ devicemap = {
     'evita': 'HTC One XL',
     'fascinatemtd': 'Samsung Fascinate',
     'fireball': 'Droid Incredible 4G LTE',
+    'gaga': 'Sony Xperia UL',
     'galaxys2att': 'Samsung Galaxy S II (AT&T)',
     'galaxys2': 'Samsung Galaxy S II (Intl)',
     'galaxysbmtd': 'Samsung Galaxy S (B)',
