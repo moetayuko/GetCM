@@ -87,6 +87,8 @@ devicemap = {
     'jfltecan': 'Samsung Galaxy S4 (Canada)',
     'jfltespr': 'Samsung Galaxy S4 (Sprint)',
     'jfltetmo': 'Samsung Galaxy S4 (T-Mobile)',
+    'jflteusc': 'Samsung Galaxy S4 (US Cellular)',
+    'jfltevzw': 'Samsung Galaxy S4 (Verizon)',
     'jlo': 'Sony Xperia J',
     'jordan': 'Motorola Defy',
     'jordan_plus': 'Motorola Defy+',
