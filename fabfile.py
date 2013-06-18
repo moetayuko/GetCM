@@ -19,6 +19,10 @@ def all():
     env.user = "fabric"
     env.hosts = ['get.cm:22221']
 
+def dist01():
+    env.user = "ctso"
+    env.hosts = ['dist01']
+
 def uptime():
     run('uptime')
 
@@ -31,4 +35,4 @@ def deploy():
     sudo("rm -rf /tmp/GetCM.egg")
     put("dist/GetCM-*-py*.egg", "/tmp/GetCM.egg")
     sudo("easy_install /tmp/GetCM.egg")
-    sudo("supervisorctl restart cmbalance")
+    sudo("supervisorctl restart getcm")
