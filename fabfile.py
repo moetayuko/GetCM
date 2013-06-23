@@ -16,11 +16,9 @@ env.ssh_config_path = os.path.join(os.environ['TARDIS_HOME'], "config", "ssh_con
 env.key_filename = os.path.join(os.environ['TARDIS_HOME'], "keys", "fab_rsa")
 
 def all():
-    env.user = "fabric"
-    env.hosts = ['get.cm:22221']
+    env.hosts = ['dist01']
 
 def dist01():
-    env.user = "ctso"
     env.hosts = ['dist01']
 
 def uptime():
