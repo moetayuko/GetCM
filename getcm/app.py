@@ -56,6 +56,7 @@ class Application(tornado.web.Application):
             ('http://oss.reflected.net/%s', 1000),
             ('http://mirror.symnds.com/software/cm/%s', 1000),
             ('http://mirror.netcologne.de/cyanogenmod/%s', 200),
+            #('http://mirror.sea.tdrevolution.net/%s', 50),
             ('http://cm.sponsored.cb-webhosting.de/%s', 25),
             ('http://mirror.i3d.net/pub/cyanogenmod/%s', 50),
         ))
