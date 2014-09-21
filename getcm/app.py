@@ -17,7 +17,7 @@ from model import DBSession, init_database
 from handlers import BrowseHandler, RssHandler, SumHandler, ZipHandler, Base62Handler, ApiHandler, MirrorApplicationHandler
 from getcm.utils import WeightedChoice
 
-define('port', 6543)
+define('port', 80)
 define('debug', True)
 
 logging.basicConfig(level=logging.DEBUG)
