@@ -72,8 +72,8 @@ class ApiHandler(BaseHandler):
                 result.append({
                     'channel': channel,
                     'filename': file_obj.filename,
-                    'url': "http://get.cm/get/%s" % file_obj.full_path,
-                    'changes': "http://get.cm/get/%s" % changesfile,
+                    'url': "http://getcm2.dianlujitao.com/get/%s" % file_obj.full_path,
+                    'changes': "http://getcm2.dianlujitao.com/get/%s" % changesfile,
                     'md5sum': file_obj.md5sum,
                     'timestamp': file_obj.date_created.strftime('%s')
                 })
@@ -108,8 +108,8 @@ class ApiHandler(BaseHandler):
                     result.append({
                         'channel': channel,
                         'filename': file_obj.filename,
-                        'url': "http://get.cm/get/%s" % file_obj.full_path,
-                        'changes': "http://get.cm/get/%s" % changesfile,
+                        'url': "http://getcm2.dianlujitao.com/get/%s" % file_obj.full_path,
+                        'changes': "http://getcm2.dianlujitao.com/get/%s" % changesfile,
                         'md5sum': file_obj.md5sum,
                         'timestamp': file_obj.date_created.strftime('%s')
                     })
